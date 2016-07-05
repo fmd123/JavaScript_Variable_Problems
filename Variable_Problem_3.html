@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Variable Problem 3</title>
+</head>
+<body>
+<script type="text/javascript">
+//2.
+
+//The temperature T in degrees Celsius (°C) is equal to the temperature T in degrees Fahrenheit (°F) minus 32, times 5/9.
+//Write a program which prompts the user enter temp in celsisu, and
+//displays the temperature in farenheit.
+//3.Add Kelvin to the previous program
+
+var celsius= prompt ("What is temperature in Celsius?");
+var fahrenheit = (celsius * (9/5)) + 32;
+console.log(fahrenheit);
+
+var Kelvin = parseFloat(celsius) + 273.15;
+
+console.log(Kelvin);
+//Don't need to do parseFloat in the fahrenheit equation because by time + sign shows up the celsius string has already been turned into a number by multiplying it by 9/5. 
+
+</script>
+
+</body>
+</html>
